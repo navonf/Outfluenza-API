@@ -4,9 +4,9 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
-from MangoHacksClasses import *
-from BetterDoctor import BetterDoctor
-from middleman import *
+from outfluenza.MangoHacksClasses import *
+from outfluenza.BetterDoctor import BetterDoctor
+from outfluenza.middleman import *
 import requests
 
 class MangoHacksView(APIView):
