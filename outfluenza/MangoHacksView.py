@@ -4,9 +4,9 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
-from classes.MangoHacksClasses import *
-from classes.BetterDoctor import BetterDoctor
-from classes.middleman import *
+from MangoHacksClasses import *
+from BetterDoctor import BetterDoctor
+from middleman import *
 import requests
 
 class MangoHacksView(APIView):
