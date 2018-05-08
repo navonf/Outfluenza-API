@@ -7,7 +7,7 @@ import heapq
 fluCall = 'http://flutrack.org/results.json'
 
 
-def getNClosestTweets( lat1, lon1, n):
+def getNClosestTweets(lat1, lon1, n):
 
     r2 = requests.get(fluCall)
     events = json.loads(r2.text)

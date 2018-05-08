@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# on Heroku you need absolute paths
 from django.http import Http404
 from rest_framework.views import APIView
 from rest_framework.response import Response
